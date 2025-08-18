@@ -17,8 +17,6 @@ def gradient_descent(m_now,b_now,points,L):
     m = m_now - m_gradient * L
     b = b_now - b_gradient * L
     return m,b
-
-# Define the points
 m = 0
 b = 0
 L = 0.0001
